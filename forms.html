@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+
+<head>
+<!-- Forms! -->
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<div class="form_bg">
+
+	<!-- <input> -->
+	<!-- <label> </label>  -->
+
+	<form action="backgrounds.html">
+	<!--<form action="program_script.php">-->
+	
+		<label for="user_fname">First Name</label>
+		<input type="text" id="user_fname" name="fname">
+		
+		<br>
+	
+		<label for="user_lname">Last Name</label>
+		<input type="text" id="user_lname" name="lname">
+		
+		<br>
+		
+		<label for="ccn">Credit Card #</label>
+		<input type="text" maxlength="16" id="ccn" name="credit_card_number">
+	
+		<br>
+		
+		<label for="cvv">CVV</label>
+		<input type="text" maxlength="3" id="cvv" name="credit_v_v">
+	
+		<br>
+		
+		<label for="ul_file">Resume (PDF)</label>
+		<input type="file" accept=".pdf, .docx, .doc, .txt" id="ul_file" name="u_file">
+		
+		<br>
+		
+		<textarea id="site_comment" name="link_comment" rows="4" cols="50"></textarea>
+		
+		<br>
+		
+		<label for="datet">Date and Time</label>
+		<input type="datetime-local" id="datet" name="date_time">
+		
+		<br>
+		<p>What is your favorite fruit?</p>
+		<label for="ff_apple">Apple</label>
+		<input type="radio" id="ff_apple" name="fav_fruit">
+		<label for="ff_banana">Banana</label>
+		<input type="radio" id="ff_banana" name="fav_fruit">
+		<label for="ff_orange">Orange</label>
+		<input type="radio" id="ff_orange" name="fav_fruit">
+		<label for="ff_grape">Grape</label>
+		<input type="radio" id="ff_grape" name="fav_fruit">
+		<br>
+		
+		<br>
+		<p>What are your favorite days of the week?</p>
+		<label for="ff_mon">Monday</label>
+		<input type="checkbox" id="ff_mon" name="fav_day">
+		<label for="ff_tue">Tuesday</label>
+		<input type="checkbox" id="ff_tue" name="fav_day">
+		<label for="ff_wed">Wednesday</label>
+		<input type="checkbox" id="ff_wed" name="fav_day">
+		<label for="ff_thu">Thursday</label>
+		<input type="checkbox" id="ff_thu" name="fav_day">
+		<br>
+		
+		
+		<input type="submit" id="sbmt" name="submit_form" value="Submit">
+		
+		
+	</form>
+
+
+</div>
+
+
+
+</body>
+</html>
